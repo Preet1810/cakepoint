@@ -10,11 +10,11 @@ const Navbar=() => {
 
             <ul className="app__navbar-links">
                 <li className="p__opensans"><a href="#home">Home</a></li>
-                <li className="p__opensans"><a href="#about">About</a></li>
+                <li className="p__opensans"><a href="#cakes">Cakes</a></li>
                 <div className="app__navbar-logo">
                     <img src={images.logo} alt="app__logo" />
                 </div>
-                <li className="p__opensans"><a href="#menu">Cakes</a></li>
+                <li className="p__opensans"><a href="#about">About</a></li>
                 <li className="p__opensans"><a href="#contact">Contact</a></li>
             </ul>
             {/* <div className="app__navbar-login">
