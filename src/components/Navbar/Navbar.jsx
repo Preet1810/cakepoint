@@ -32,9 +32,9 @@ const Navbar=() => {
                         <MdOutlineRestaurantMenu fontSize={27} className="overlay__close" onClick={() => setToggleMenu(false)} />
                         <ul className="app__navbar-smallscreen_links">
                             <li><a href="#home" onClick={() => setToggleMenu(false)}>Home</a></li>
+                            <li><a href="#cakes" onClick={() => setToggleMenu(false)}>Cakes</a></li>
                             <li><a href="#about" onClick={() => setToggleMenu(false)}>About</a></li>
-                            <li><a href="#menu" onClick={() => setToggleMenu(false)}>Cakes</a></li>
-                            <li><a href="#contact" onClick={() => setToggleMenu(false)}>Contact</a></li>
+                            <li><a href="#contact" onClick={() => setToggleMenu(false)}>Contact Us</a></li>
                         </ul>
                     </div>
                 )}

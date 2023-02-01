@@ -9,13 +9,10 @@ const About=() => {
                 <img src={images.shop} alt="chef_image" />
             </div>
             <div className="app__wrapper_info">
-                <h1 className="headtext__cormorant">About Us</h1>
+                <h1 className="headtext__cormorant main-head">About Us</h1>
 
                 <div className="app__chef-content">
-                    <div className="app__chef-content_quote">
-                        <img src={images.quote} alt="quote_image" />
-                        {/* <p className="p__opensans">Cakepoint, established in 1990, is a family-owned confectionery shop that offers a wide range of delicious food items, including cakes, pastries, and other delectable treats. With over 30 years of experience, our commitment to quality and fresh ingredients is evident in every bite. We specialize in baking custom cakes for all occasions, from birthdays to weddings, using only the finest ingredients. Whether you're in the mood for a sweet snack or looking to make a special event even sweeter, Cakepoint has something for everyone. Come visit us and taste the difference that comes from years of passion and experience in the confectionery industry.</p> */}
-                    </div>
+
                     <p className="p__opensans"> Cakepoint, established in 1990, is a family-owned confectionery shop that offers a wide range of delicious food items, including cakes, pastries, and other delectable treats. With over 30 years of experience, our commitment to quality and fresh ingredients is evident in every bite. We specialize in baking custom cakes for all occasions, from birthdays to weddings, using only the finest ingredients. Whether you're in the mood for a sweet snack or looking to make a special event even sweeter, Cakepoint has something for everyone. Come visit us and taste the difference that comes from years of passion and experience in the confectionery industry.</p>
                 </div>
 

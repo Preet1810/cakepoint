@@ -1,5 +1,9 @@
 .about-section {
-    background-color: black;
+    background-color: #c4bcb4;
+}
+
+.main-head {
+    color: var(--color-brown);
 }
 
 
@@ -11,14 +15,15 @@
 }
 
 /* .owner-img img {
-    height: 600px;
-    width: 600px;
+    height: 500px;
+    width: 100px;
 } */
 
 .app__chef-content_quote {
     display: flex;
     justify-content: flex-start;
     align-items: flex-end;
+
 }
 
 .app__chef-content_quote img {
@@ -31,12 +36,12 @@
 
 .app__chef-sign p:first-child {
     font-family: var(--font-base);
-    font-weight: 400;
+    font-weight: 600;
     font-size: 32px;
     line-height: 41.6px;
     letter-spacing: 0.04em;
     text-transform: capitalize;
-    color: var(--color-golden);
+    color: var(--color-brown);
     margin-top: 2rem;
 }
 

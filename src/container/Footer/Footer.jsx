@@ -15,7 +15,7 @@ const Footer=() => {
 
                 <div className="app__footer-links_logo">
                     <img src={images.logo} alt="footer_logo" />
-                    <p className="p__opensans">&quot;The best way to find yourself is to lose yourself in the service of others.&quot;</p>
+                    <p className="p__opensans footer-quote">&quot;The best way to find yourself is to lose yourself in the service of others.&quot;</p>
 
                 </div>
 
@@ -29,7 +29,7 @@ const Footer=() => {
             </div>
 
             <div className="footer__copyright">
-                <p className="p__opensans">2021 Gericht. All Rights reserved.</p>
+                <p className="p__opensans">2023 CakePoint. All Rights reserved.</p>
                 <p className="p__opensans crafter" >Web Page Crafted by <a href="https://preetpal.netlify.app" target="_blank">Preetpal Singh</a></p>
             </div>
 

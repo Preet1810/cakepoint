@@ -19,9 +19,9 @@ const Cakes=() => {
     return (
         <div className="app__gallery flex__center" id='cakes'>
             <div className="app__gallery-content">
-                <h1 className="headtext__cormorant">Popular Choices</h1>
+                <h1 className="headtext__cormorant mainhead">Popular Choices</h1>
                 <p className="p__opensans" style={{ color: '#AAAAAA', marginTop: '2rem' }}>Indulge in the heavenly taste of our freshly baked, handcrafted pastries and cakes, made with passion and love. Order now for any celebration.</p>
-                <button type="button" className="custom__button">Order Now <BsWhatsapp /></button>
+                <a href="https://api.whatsapp.com/send/?phone=918743980698&text=Hey" target='_blank' className="custom__button WAB">Order Now <BsWhatsapp /></a>
             </div>
             <div className="app__gallery-images">
                 <div className="app__gallery-images_container" ref={scrollRef}>

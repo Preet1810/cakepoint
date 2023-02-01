@@ -10,7 +10,7 @@ const Header=() =>
             {/* <SubHeading title="Chase the new flavour" /> */}
             <h1 className="app__header-h1">Custom cakes made with love</h1>
             <p className="p__opensans" style={{ margin: '2rem 0' }}>From birthdays to weddings, our shop offers a wide variety of pastries and cakes made with the freshest ingredients. Place your order now on Whatsapp for pickup.</p>
-            <button type="button" className="custom__button">Order Now <BsWhatsapp /></button>
+            <a href="https://api.whatsapp.com/send/?phone=918743980698&text=Hey" target='_blank' className="custom__button">Order Now <BsWhatsapp /></a>
         </div>
 
         <div className="app__wrapper_img">
